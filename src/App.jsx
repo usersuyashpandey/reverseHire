@@ -1,22 +1,14 @@
 import "./App.css";
-import logo from "./logo.svg";
+import {Box} from '@mui/material'
+import Contact from "./Components/Contact";
+import ContactList from "./Components/ContactList";
 
 function App() {
   return (
-    <div className="App" role="main">
-      <article className="App-article">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h3>Welcome to React!</h3>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </article>
-    </div>
+    <Box className="App" role="main">
+      <Contact/>
+      <ContactList/>
+    </Box>
   );
 }
 
