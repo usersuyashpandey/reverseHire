@@ -5,7 +5,7 @@ import ContactList from "./Components/ContactList";
 
 function App() {
   return (
-    <Box className="App" role="main">
+    <Box className="App" role="main" m={5}>
       <Contact/>
       <ContactList/>
     </Box>
